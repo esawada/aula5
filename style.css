@@ -20,6 +20,7 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
+	margin: 2;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -54,10 +55,12 @@ main {
 	align-items: flex-start;
 	justify-content: space-between;
 }
+img {
+	align-items: left;
+}
 
 section {
 	flex-basis: 70%;
 	margin-right: 20px;
 }
 
-section h2
